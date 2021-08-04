@@ -28,6 +28,22 @@ logger();
 ///
 const calculator = (a,b) => {return a + b};
 ///
-const str="test";
+const str="teSt";
 const arr=[1,2,4];
 console.log(arr.length);
+console.log(str[2]);
+console.log(str.toUpperCase());
+console.log(str.toLowerCase());
+console.log(str);
+const fruit="Some fruit";
+console.log(fruit.indexOf("uit"));
+console.log(fruit.indexOf("d"));//-1
+
+const logg="Hello world";
+//console.log(logg.slice(6,10));//worl
+//console.log(logg.slice(-8,-2));//lo wor
+//console.log(logg.substring(3,8));//lo wo
+console.log(logg.substr(6,5));//world
+const test="12.5px";
+console.log(parseInt(test));//12
+console.log(parseFloat(test));//12.5
