@@ -27,3 +27,7 @@ const logger=function(){
 logger();
 ///
 const calculator = (a,b) => {return a + b};
+///
+const str="test";
+const arr=[1,2,4];
+console.log(arr.length);
